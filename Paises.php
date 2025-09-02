@@ -13,7 +13,7 @@ switch($action) {
         if($_POST){
             $paises->nombre_paises = $_POST['nombre_pais'];
             $paises->codigo_paises = $_POST['codigo_pais'];
-            $paises->poblacion_aproximada = $_POST['poblacion'];
+            $paises->poblacion_aproximada = $_POST['población'];
             $paises->area_km2 = $_POST['area_km2'];
             
             if($paises->create()){
